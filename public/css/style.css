@@ -1,0 +1,99 @@
+html {height: 100%;min-height:100%;}
+
+/* Police de Texte */
+#white-text {
+	color: white;
+}
+
+.dropdown {
+  overflow: hidden;
+  display: inline;
+}
+
+#jumbo
+{
+    /* IE8 and below */
+    background: rgb(0, 0, 0);
+    /* all other browsers */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0 !important;
+    margin: 0;
+
+    background-image: url("../assets/images/wallpaper.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    line-height:2em;
+}
+
+table{background-color:rgb(0, 90, 200);}
+
+.blue{background-color:rgb(0, 90, 200);}
+
+.rounded_border {border-radius:15px;}
+.rounded_border2 {border-radius:15px;}
+
+.opaque {background-color: white;background: rgba(255, 255, 255, 0.8);}
+.opaque2 {background-color: white; background: rgba(255, 255, 255, 0.9);}
+
+.no-margin {margin:0;}
+
+/* Thick red border */
+hr {
+  border: 1px solid darkgray;
+}
+
+.footer {
+  position:sticky-bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+#imgcont {
+  transition: 0.2s linear;
+  object-fit: cover;
+}
+
+#imgcont:hover {
+  transform: scale( 1.2 );
+}
+
+@font-face {
+  font-family: 'sonic_genesismega_drive_fonRg';
+  src: url('../fonts/sonic-genesis-mega-drive-font-webfont.woff2') format('woff2'),
+       url('../fonts/sonic-genesis-mega-drive-font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  font-family: 'sonic_genesismega_drive_fonRg', Arial, sans-serif;
+}
+
+a {
+  font-size: 2.5em;
+}
+
+td {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+.table-image {
+  td, th {
+    vertical-align: middle;
+  }
+}
+
+#ring-img {
+  width: 5%;
+  height: auto;
+}
