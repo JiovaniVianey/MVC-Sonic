@@ -16,7 +16,7 @@ $baseRoute = $_SERVER['BASE_URI'];
   <!-- font awesome-->
   <script src="https://kit.fontawesome.com/731cc9a451.js" crossorigin="anonymous"></script>
   <title>Sonic the Hedgehog</title>
-  <link rel="shorcut icon" href="<?= $absoluteURL ?>/favicon.ico" type="image/x-icon">
+  <link rel="shorcut icon" href="<?= $absoluteURL ?>/assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body data-spy="scroll" data-target="#menu">
@@ -33,7 +33,7 @@ $baseRoute = $_SERVER['BASE_URI'];
             </li>
           </ul>
         </div>
-        <a class="navbar-brand order-first order-md-0 mx-0" href="index.html">
+        <a class="navbar-brand order-first order-md-0 mx-0" href="<?= $router->generate('home') ?>">
           <img id="imgcont" src="<?= $absoluteURL ?>/assets/images/logo_site.png" />
         </a>
         <div class="collapse navbar-collapse w-100 justify-content-end">
